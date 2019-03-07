@@ -4,6 +4,6 @@
 
 def roll
   # code goes here
-  dice_roll = 1 + rand(6)
-  return "#{dice_roll}"
+  ary = [1,2,3,4,5,6]
+  ary[rand(ary.length)]
 end
